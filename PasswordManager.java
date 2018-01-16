@@ -1,5 +1,9 @@
 import java.util.Random;
 
+
+/*
+	パスワード規約に基づいて、ランダムな長さのパスワードを生成するプログラム
+*/
 public class PasswordManager {
 	static Random r = new Random();
 

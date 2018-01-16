@@ -9,6 +9,9 @@ import java.net.UnknownHostException;
 
 import javax.net.ssl.HttpsURLConnection;
 
+/*
+	weblioの辞書サービスを利用した単語の存在判定を提供するクラス
+*/
 public class GetweblioWords {
 	private static PrintWriter pw = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
 	//引数1　判定対象の英単語（原形）

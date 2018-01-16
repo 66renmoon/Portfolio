@@ -1,6 +1,26 @@
 import java.util.ArrayList;
 
+/*
+	Integerの拡張として、因数分解または素数判定が行われたintを格納するラッパークラス
+	素数判定及び因数分解を提供する
+*/
 public class NPObject {
+	public static void main(String[] args){
+		NPObject np = null;
+		np = new NPObject(101);
+		System.out.println(np.getInt());
+		System.out.println(np.isPrimeNumber());
+		System.out.println(np.toString());
+		np = new NPObject(102);
+		System.out.println(np.getInt());
+		System.out.println(np.isPrimeNumber());
+		System.out.println(np.toString());
+		System.out.println(NPObject.isPrimeNumber(101));
+		System.out.println(NPObject.factorization(101));
+		System.out.println(NPObject.isPrimeNumber(102));
+		System.out.println(NPObject.factorization(102));
+	}
+	
 	private static final ArrayList<Integer> primenumbers = new ArrayList<>();
 	static {
 		primenumbers.add(2);

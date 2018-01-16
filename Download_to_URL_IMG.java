@@ -6,6 +6,10 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 
+/*
+	ネットワーク上に存在する
+	jpegファイルをURLからダウンロードするメソッドを提供する
+*/
 public class Download_to_URL_IMG {
 	//引数1　保存先URL,ディレクトリの場合新規にファイルを作成
 	//引数2　対象の画像UR
